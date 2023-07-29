@@ -21,7 +21,6 @@ const SlashCommandBuilder = Discord.SlashCommandBuilder
 const Bot = new Discord.Client({ intents: 32767 })
 const config = require("./mcw-config/data.js")
 
-
 const rest = new REST({ version: '10' }).setToken(process.env["token"]);
 const commads = [
 	new SlashCommandBuilder()
